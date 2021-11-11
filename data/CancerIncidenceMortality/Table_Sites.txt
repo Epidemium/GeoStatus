@@ -1,0 +1,76 @@
+SITE	NUMERO_SITE	LABEL_SITE	ANNEE_DEBUT	MORTALITE	TENDANCE_AGE_H	TENDANCE_AGE_F
+levbp	01.00	Lèvre-bouche-pharynx	1990	1	1	1
+levre	01.10	Lèvre	1990	0	0	0
+cbucale	01.20	Cavité buccale	1990	0	1	1
+sali	01.30	Glandes salivaires	1990	0	0	0
+bloro	01.40	Oropharynx	1990	0	1	1
+naso	01.50	Nasopharynx	1990	0	0	0
+hypo	01.60	Hypopharynx	1990	0	1	0
+oeso	02.00	Oesophage	1990	1	1	1
+oeso.epi	02.10	Oesophage, cancer épidermoïde	1990	0	1	1
+oeso.adk	02.20	Oesophage, adénocarcinome	1990	0	1	0
+estomac	03.00	Estomac	1990	1	1	1
+grele	04.00	Intestin grêle	1990	0	1	0
+colonrec	05.00	Côlon et rectum	1990	1	1	1
+colon	05.10	Côlon	1990	0	1	1
+rectum	05.20	Rectum	1990	0	1	1
+anus	05.30	Anus et canal anal	1990	0	0	1
+foie	06.00	Foie	1990	1	1	1
+bili	07.00	Vésicule et voies biliaires	1990	0	1	1
+pancreas	08.00	Pancréas	1990	1	1	1
+cnasale	09.00	Fosses nasales, sinus annexes de la face, oreilles moyenne et interne	1990	0	1	0
+larynx	10.00	Larynx	1990	1	1	0
+poumon	11.00	Poumon	1990	1	1	1
+poumon.adk	11.10	Poumon, adénocarcinome	1990	0	1	1
+poumon.epi	11.20	Poumon, cancer épidermoïde	1990	0	1	1
+poumon.pcel	11.30	Poumon, cancer à petites cellules	1990	0	1	1
+mela	12.00	Mélanome de la peau	1990	1	1	1
+sarcome	13.00	Sarcome	1990	0	1	1
+scomtissu	13.10	Sarcome des tissus mous	1990	0	1	1
+scomos	13.20	Sarcome osseux	1990	0	1	0
+sein	14.00	Sein	1990	1	NA	1
+col	15.00	Col de l utérus	1990	1	NA	1
+corps	16.00	Corps de l utérus	1990	1	NA	1
+ovaire	17.00	Ovaire	1990	1	NA	1
+ovaire.epith	17.10	Ovaire, tumeur épithéliale	1990	0	NA	1
+vulve	18.00	Vulve	1990	0	NA	0
+vagin	19.00	Vagin	1990	0	NA	0
+penis	20.00	Pénis	1990	0	0	NA
+prostate	21.00	Prostate	1990	1	1	NA
+testi	22.00	Testicule	1990	1	1	NA
+testi.semi	22.10	Testicule, tumeur germinale séminomateuse	1990	0	1	NA
+testi.nonsemi	22.20	Testicule, tumeur germinale non-séminomateuse et mixte	1990	0	1	NA
+rein	23.00	Rein	1990	1	1	1
+rein.parenchym	23.10	Rein: parenchyme rénal	1990	0	1	1
+vessie	24.00	Vessie	1990	1	1	1
+choro	25.00	Mélanome de l uvée	1990	0	0	0
+sncinv	26.00	Système nerveux central	1990	1	1	1
+sncinv.glio	26.10	SNC, glioblastomes	1990	0	1	1
+thyroide	27.00	Thyroïde	1990	1	1	1
+thyroide.papi	27.10	Thyroïde, cancer papillaire	1990	0	1	1
+hodgkin	31.00	Lymphome de Hodgkin	1990	0	1	1
+lmnh	32.00	Lymphome non hodgkinien	1990	0	1	1
+lmnhllc	32.01	Leucémie lymphoïde chronique (LLC)/Lymphome lymphocytique	1990	0	1	1
+lmnhf	32.02	Lymphome folliculaire	1995	0	1	1
+lmnhb	32.03	Lymphome diffus à grandes cellules B	1995	0	1	1
+lmnhman	32.04	Lymphome à cellules du manteau	2003	0	0	0
+lmnhburkitt	32.05	Lymphome de Burkitt	1995	0	0	0
+lmnhm	32.07	Myélome multiple et plasmocytome	1995	0	1	1
+lmnhw	32.08	Lymphome lympho-plasmocytaire/Macroglobulinémie de Waldenström	1995	0	1	0
+lmnhtricho	32.09	Leucémie à tricholeucocytes	1990	0	0	0
+lmnht	32.10	Lymphome T/NK à cellules matures	2003	0	1	1
+lmnht.cut	32.101	Lymphome T/NK à cellules matures cutané	2003	0	0	0
+lmnht.ncut	32.102	Lymphome T/NK à cellules matures non-cutané	2003	0	0	0
+lmnhleu	32.11	Leucémie/Lymphome lymphoblastique à cellules précurseurs (B,T ou SAI)	1995	0	1	1
+lmnhz	32.60	Lymphome de la zone marginale	2003	0	1	1
+lma	33.00	Leucémie aiguë myéloïdes	1990	0	1	1
+lmapro	33.1	Leucémie aiguë myéloïde promyélocytaire	2003	0	0	0
+smc	34.00	Syndrome myéloprolifératif chronique (SMC)	2003	0	1	1
+smclmc	34.10	Leucémie myéloïde chronique (LMC)	1990	0	1	0
+smcautre	34.20	Syndrome myéloprolifératif chronique, autre que LMC	2003	0	1	1
+smcau.myelo	34.21	Myélofibrose (syndrome myéloprolifératif chronique)	2003	0	0	0
+smcau.vaquez	34.22	Polyglobulie de Vaquez (syndrome myéloprolifératif chronique)	2003	0	1	0
+smcau.thrombo	34.23	Thrombocytémie essentielle (syndrome myéloprolifératif chronique)	2003	0	1	1
+smd	35.00	Syndrome myélodysplasique	2003	0	1	1
+smm	36.00	Leucémie myélomonocytaire chronique et autres	2003	0	0	0
+allcancer	90.00	Tous cancers	1990	1	1	1
