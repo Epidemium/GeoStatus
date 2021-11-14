@@ -1,0 +1,410 @@
+<HTML>
+<HEAD>
+<TITLE>Interrogation des donn&eacute;es détaillées</TITLE>
+<SCRIPT LANGUAGE="JAVASCRIPT" SRC="/inserm/js/request_efftx.js">
+</SCRIPT>
+</HEAD>
+<BODY text=#00007f vLink=#008c8c link=#7f213f bgColor=#E5E5E5 onload="document.forms[0].reset();">
+<CENTER><A HREF="/"><IMG SRC="/inserm/img/bandeau.gif" border=0></A></CENTER>
+<FORM action="/cgi-bin/broker.exe" method="POST">
+<CENTER>
+<TABLE BORDER="0" WIDTH="90%">
+<TR>
+<TD WIDTH="20%">
+&nbsp;
+</TD>
+<TD ALIGN="CENTER" NOWRAP>
+<H2><B>
+Interrogation des donn&eacute;es détaillées<BR>
+</B></H2>
+</TD>
+<TD WIDTH="20%">
+&nbsp;
+</TD>
+</TR>
+</TABLE>
+<TABLE BORDER="0" WIDTH="90%">
+<TR>
+<TD COLSPAN=4>
+<A HREF="javascript:showHelpWindow(1);" TITLE="Aide"><IMG src="/inserm/img/interro.jpg" BORDER=0 WIDTH=26 HEIGHT=26></A>
+<B><FONT color=#af0000>1&nbsp;</FONT>Type d'indicateur :</B>
+</TD>
+</TR>
+<TR>
+<TD WIDTH="10%" VALIGN=MIDDLE ALIGN=CENTER>
+</TD>
+<TD>
+<INPUT TYPE="RADIO" NAME="TYPE" VALUE="E" CHECKED  onClick="loadGeo(this)">&nbsp;Effectifs de décès
+</TD>
+<TD>
+<INPUT TYPE="RADIO" NAME="TYPE" VALUE="T" onClick="loadGeo(this)">&nbsp;Taux bruts de décès
+</TD>
+<TD WIDTH="20%">
+&nbsp;
+</TD>
+</TR>
+<TR>
+<TD COLSPAN=4>
+&nbsp;
+</TD>
+</TR>
+<TR>
+<TD COLSPAN=4>
+<A HREF="javascript:showHelpWindow(2);" TITLE="Aide"><IMG src="/inserm/img/interro.jpg" BORDER=0 WIDTH=26 HEIGHT=26></A>
+<B><FONT color=#af0000>2&nbsp;</FONT>S&eacute;lection G&eacute;ographique :</B>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=CENTER COLSPAN=2>
+<TABLE>
+<TR>
+<TD >Niveau :
+</TD>
+<TD><SELECT NAME="AXEGEO" SIZE=1 onChange="reloadForm()">
+<OPTION VALUE="F">France métropolitaine
+<OPTION VALUE="E">France entière
+<OPTION VALUE="R">Région
+<OPTION VALUE="D" SELECTED >Département
+<OPTION VALUE="V">Grande ville
+</SELECT>
+</TD>
+</TR>
+</TABLE>
+</TD>
+<TD COLSPAN=2>
+<TABLE >
+<TR>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;Zone :
+</TD>
+<TD>
+<SELECT NAME="CODE_GEO" SIZE=3>
+<OPTION VALUE="01" SELECTED >Ain
+<OPTION VALUE="02">Aisne
+<OPTION VALUE="03">Allier
+<OPTION VALUE="04">Alpes de Haute Provence
+<OPTION VALUE="05">Hautes-Alpes
+<OPTION VALUE="06">Alpes-Maritimes
+<OPTION VALUE="07">Ardèche
+<OPTION VALUE="08">Ardennes
+<OPTION VALUE="09">Ariège
+<OPTION VALUE="10">Aube
+<OPTION VALUE="11">Aude
+<OPTION VALUE="12">Aveyron
+<OPTION VALUE="13">Bouches du Rhône
+<OPTION VALUE="14">Calvados
+<OPTION VALUE="15">Cantal
+<OPTION VALUE="16">Charente
+<OPTION VALUE="17">Charente Maritime
+<OPTION VALUE="18">Cher
+<OPTION VALUE="19">Corrèze
+<OPTION VALUE="20">Corse
+<OPTION VALUE="21">Côte-d'or
+<OPTION VALUE="22">Côtes d'Armor
+<OPTION VALUE="23">Creuse
+<OPTION VALUE="24">Dordogne
+<OPTION VALUE="25">Doubs
+<OPTION VALUE="26">Drome
+<OPTION VALUE="27">Eure
+<OPTION VALUE="28">Eure et Loir
+<OPTION VALUE="29">Finistère
+<OPTION VALUE="30">Gard
+<OPTION VALUE="31">Haute Garonne
+<OPTION VALUE="32">Gers
+<OPTION VALUE="33">Gironde
+<OPTION VALUE="34">Herault
+<OPTION VALUE="35">Ille et Vilaine
+<OPTION VALUE="36">Indre
+<OPTION VALUE="37">Indre et Loire
+<OPTION VALUE="38">Isère
+<OPTION VALUE="39">Jura
+<OPTION VALUE="40">Landes
+<OPTION VALUE="41">Loir et Cher
+<OPTION VALUE="42">Loire
+<OPTION VALUE="43">Haute Loire
+<OPTION VALUE="44">Loire Atlantique
+<OPTION VALUE="45">Loiret
+<OPTION VALUE="46">Lot
+<OPTION VALUE="47">Lot et Garonne
+<OPTION VALUE="48">Lozère
+<OPTION VALUE="49">Maine et Loire
+<OPTION VALUE="50">Manche
+<OPTION VALUE="51">Marne
+<OPTION VALUE="52">Haute Marne
+<OPTION VALUE="53">Mayenne
+<OPTION VALUE="54">Meurthe et Moselle
+<OPTION VALUE="55">Meuse
+<OPTION VALUE="56">Morbihan
+<OPTION VALUE="57">Moselle
+<OPTION VALUE="58">Nièvre
+<OPTION VALUE="59">Nord
+<OPTION VALUE="60">Oise
+<OPTION VALUE="61">Orne
+<OPTION VALUE="62">Pas de Calais
+<OPTION VALUE="63">Puy de Dôme
+<OPTION VALUE="64">Pyrénées Atlantiques
+<OPTION VALUE="65">Hautes Pyrénées
+<OPTION VALUE="66">Pyrénées Orientales
+<OPTION VALUE="67">Bas Rhin
+<OPTION VALUE="68">Haut Rrhin
+<OPTION VALUE="69">Rhône
+<OPTION VALUE="70">Haute Saône
+<OPTION VALUE="71">Saône et loire
+<OPTION VALUE="72">Sarthe
+<OPTION VALUE="73">Savoie
+<OPTION VALUE="74">Haute Savoie
+<OPTION VALUE="75">Paris
+<OPTION VALUE="76">Seine Maritime
+<OPTION VALUE="77">Seine et Marne
+<OPTION VALUE="78">Yvelines
+<OPTION VALUE="79">Deux Sèvres
+<OPTION VALUE="80">Somme
+<OPTION VALUE="81">Tarn
+<OPTION VALUE="82">Tarn et Garonne
+<OPTION VALUE="83">Var
+<OPTION VALUE="84">Vaucluse
+<OPTION VALUE="85">Vendée
+<OPTION VALUE="86">Vienne
+<OPTION VALUE="87">Haute Vienne
+<OPTION VALUE="88">Vosges
+<OPTION VALUE="89">Yonne
+<OPTION VALUE="90">Territoire de Belfort
+<OPTION VALUE="91">Essonne
+<OPTION VALUE="92">Hauts de Seine
+<OPTION VALUE="93">Seine Saint Denis
+<OPTION VALUE="94">Val de Marne
+<OPTION VALUE="95">Val d'Oise
+<OPTION VALUE="971">Guadeloupe
+<OPTION VALUE="972">Martinique
+<OPTION VALUE="973">Guyane
+<OPTION VALUE="974">Réunion
+</SELECT>
+</TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+<TR>
+<TD COLSPAN=4>
+<A HREF="javascript:showHelpWindow(3);" TITLE="Aide"><IMG src="/inserm/img/interro.jpg" BORDER=0 WIDTH=26 HEIGHT=26></A>
+<B><FONT color=#af0000>3&nbsp;</FONT>Ann&eacute;e(s) de d&eacute;c&egrave;s :</B>
+</TD>
+</TR>
+<TR>
+<TD VALIGN=MIDDLE ALIGN=CENTER>
+</TD>
+<TD NOWRAP>
+Depuis :&nbsp;
+<SELECT NAME="AN_DEB" SIZE=1 onChange="loadNomen()">
+<OPTION VALUE="1981" SELECTED >1981
+<OPTION VALUE="1982">1982
+<OPTION VALUE="1983">1983
+<OPTION VALUE="1984">1984
+<OPTION VALUE="1985">1985
+<OPTION VALUE="1986">1986
+<OPTION VALUE="1987">1987
+<OPTION VALUE="1988">1988
+<OPTION VALUE="1989">1989
+<OPTION VALUE="1990">1990
+<OPTION VALUE="1991">1991
+<OPTION VALUE="1992">1992
+<OPTION VALUE="1993">1993
+<OPTION VALUE="1994">1994
+<OPTION VALUE="1995">1995
+<OPTION VALUE="1996">1996
+<OPTION VALUE="1997">1997
+<OPTION VALUE="1998">1998
+<OPTION VALUE="1999">1999
+<OPTION VALUE="2000">2000
+<OPTION VALUE="2001">2001
+<OPTION VALUE="2002">2002
+<OPTION VALUE="2003">2003
+<OPTION VALUE="2004">2004
+<OPTION VALUE="2005">2005
+<OPTION VALUE="2006">2006
+<OPTION VALUE="2007">2007
+<OPTION VALUE="2008">2008
+<OPTION VALUE="2009">2009
+<OPTION VALUE="2010">2010
+<OPTION VALUE="2011">2011
+<OPTION VALUE="2012">2012
+<OPTION VALUE="2013">2013
+<OPTION VALUE="2014">2014
+<OPTION VALUE="2015">2015
+<OPTION VALUE="2016">2016
+<OPTION VALUE="2017">2017
+</SELECT>
+&nbsp;&nbsp;&nbsp;
+Jusqu'&agrave; :&nbsp;
+<SELECT NAME="AN_FIN" SIZE=1 onChange="loadNomen()">
+<OPTION VALUE="">
+<OPTION VALUE="1981">1981
+<OPTION VALUE="1982">1982
+<OPTION VALUE="1983">1983
+<OPTION VALUE="1984">1984
+<OPTION VALUE="1985">1985
+<OPTION VALUE="1986">1986
+<OPTION VALUE="1987">1987
+<OPTION VALUE="1988">1988
+<OPTION VALUE="1989">1989
+<OPTION VALUE="1990">1990
+<OPTION VALUE="1991">1991
+<OPTION VALUE="1992">1992
+<OPTION VALUE="1993">1993
+<OPTION VALUE="1994">1994
+<OPTION VALUE="1995">1995
+<OPTION VALUE="1996">1996
+<OPTION VALUE="1997">1997
+<OPTION VALUE="1998">1998
+<OPTION VALUE="1999">1999
+<OPTION VALUE="2000">2000
+<OPTION VALUE="2001">2001
+<OPTION VALUE="2002">2002
+<OPTION VALUE="2003">2003
+<OPTION VALUE="2004">2004
+<OPTION VALUE="2005">2005
+<OPTION VALUE="2006">2006
+<OPTION VALUE="2007">2007
+<OPTION VALUE="2008">2008
+<OPTION VALUE="2009">2009
+<OPTION VALUE="2010">2010
+<OPTION VALUE="2011">2011
+<OPTION VALUE="2012">2012
+<OPTION VALUE="2013">2013
+<OPTION VALUE="2014">2014
+<OPTION VALUE="2015">2015
+<OPTION VALUE="2016">2016
+<OPTION VALUE="2017" SELECTED >2017
+</SELECT>
+</TD>
+<TD>
+&nbsp;
+</TD>
+</TR>
+<TR>
+<TD COLSPAN=4>
+<A HREF="javascript:showHelpWindow(4);" TITLE="Aide"><IMG src="/inserm/img/interro.jpg" BORDER=0 WIDTH=26 HEIGHT=26></A>
+<B><FONT color=#af0000>4&nbsp;</FONT>Détail de la cause de décès :</B>
+</TD>
+</TR>
+<TR>
+<TD VALIGN=MIDDLE ALIGN=CENTER >
+</TD>
+<TD NOWRAP COLSPAN=2>
+<INPUT TYPE="HIDDEN" NAME="TCAUSE" VALUE="S">
+Liste abrégée des causes de décès (910)
+</TD>
+<TD>
+&nbsp;
+</TD>
+</TR>
+<TR>
+<TD COLSPAN=4>
+&nbsp;
+</TD>
+</TR>
+<TR>
+<TD COLSPAN=4><A HREF="javascript:showHelpWindow(5);" TITLE="Aide"><IMG src="/inserm/img/interro.jpg" BORDER=0 WIDTH=26 HEIGHT=26></A>
+
+<B><FONT color=#af0000>5&nbsp;</FONT>Sélection de la cause de décès :</B>
+</TD>
+</TR>
+<TR>
+<TD VALIGN=MIDDLE ALIGN=CENTER>
+</TD>
+<TD NOWRAP>
+Chapitre :&nbsp;
+</TD>
+<TD>
+<SELECT NAME="SEC_CAUSE" SIZE=1 onChange="reloadForm()">
+<OPTION VALUE="00">Tous (principales causes de décès)
+<OPTION VALUE="01">Maladies infectieuses et parasitaires
+<OPTION VALUE="02" SELECTED >Tumeurs
+<OPTION VALUE="03">Maladies du sang et des organes hématopoïétiques
+<OPTION VALUE="04">Maladies endocriniennes, nutritionelles et métaboliques
+<OPTION VALUE="05">Troubles mentaux et du comportement
+<OPTION VALUE="06">Maladies du système nerveux et des organes des sens
+<OPTION VALUE="07">Maladie de l’appareil circulatoire
+<OPTION VALUE="08">Maladies de l’appareil respiratoire
+<OPTION VALUE="09">Maladies de l’appareil digestif
+<OPTION VALUE="10">Infections de la peau et du tissu cellulaire sous-cutané
+<OPTION VALUE="11">Maladies du système ostéo-articulaire, des muscles et du tissu conjonctif
+<OPTION VALUE="12">Maladies de l'appareil génito-urinaire
+<OPTION VALUE="13">Complic. de grossesse, accouch. et puerpéralité
+<OPTION VALUE="14">Certaines affections dont l’origine se situe dans la période périnatale
+<OPTION VALUE="15">Malformations congén. et anom. chromosomiques
+<OPTION VALUE="16">Symptômes et états morbides mal définis
+<OPTION VALUE="17">Causes externes de blessure et d’empoisonnement
+</SELECT>
+</TD>
+<TD>
+&nbsp;
+</TD>
+</TR>
+<TR>
+<TD>
+&nbsp;
+</TD>
+<TD NOWRAP>
+Sous-chapitre :&nbsp;
+</TD>
+<TD>
+<SELECT NAME="CAUSE" SIZE=1>
+<OPTION VALUE="02" SELECTED >Toutes les rubriques du chapitre
+<OPTION VALUE="0201">Tumeur maligne de la lèvre, de la cavité buccale et du pharynx
+<OPTION VALUE="0202">Tumeur maligne du oesophage
+<OPTION VALUE="0203">Tumeur maligne de l'estomac
+<OPTION VALUE="0204">Tumeur maligne du côlon
+<OPTION VALUE="0205">Tumeur maligne du rectum et de l’anus
+<OPTION VALUE="0206">Tumeur maligne du foie et des voies biliaires intrahépatiques
+<OPTION VALUE="0207">Tumeur maligne du pancréas
+<OPTION VALUE="0208">Tumeur maligne du larynx, de la trachée, des bronches et du poumon
+<OPTION VALUE="0209">Mélanome malin de la peau
+<OPTION VALUE="0210">Tumeur maligne du sein
+<OPTION VALUE="0211">Tumeur maligne du col de l’utérus
+<OPTION VALUE="0212">Tumeur maligne d’autres parties de l’utérus
+<OPTION VALUE="0213">Tumeur maligne de l’ovaire
+<OPTION VALUE="0214">Tumeur maligne de la prostate
+<OPTION VALUE="0215">Tumeur maligne du rein
+<OPTION VALUE="0216">Tumeur maligne de la vessie
+<OPTION VALUE="0217">Tumeur maligne des tissus lymphatiques et hématopoïétiques
+<OPTION VALUE="0218">Autres tumeurs malignes
+<OPTION VALUE="0219">Autres tumeurs
+</SELECT>
+</TD>
+<TD>
+&nbsp;
+</TD>
+</TR>
+<TR>
+<TD COLSPAN=4>
+&nbsp;
+</TD>
+</TR>
+</TABLE>
+<TABLE BORDER="0" WIDTH="90%">
+<TR>
+<TD width="30%">
+<HR>
+</TD>
+<TD WIDTH="20%" ALIGN="CENTER">
+<A HREF="/inserm/html/index2.htm"><IMG SRC="/inserm/img/back.gif" BORDER=0> </A>
+</TD>
+<TD width="20%" ALIGN="CENTER">
+<A href="javascript:validateForm()">
+<IMG src="/inserm/img/lancer_demande.gif" align=middle border=0>
+</A>
+</TD>
+<TD width="30%">
+<HR>
+</TD>
+</TR>
+</TABLE>
+<INPUT TYPE="HIDDEN" NAME="NOMEN" VALUE="910">
+<INPUT TYPE="HIDDEN" NAME="TYPE_SORTIE" VALUE="T">
+<INPUT TYPE="HIDDEN" NAME="PREV_AXEGEO" VALUE="D">
+<INPUT TYPE="HIDDEN" NAME="_SERVICE" VALUE="inserm">
+<INPUT TYPE="HIDDEN" NAME="_PROGRAM" VALUE="intlib.GENERAL.EFF_TAUX_GEN.SCL">
+<INPUT TYPE="HIDDEN" NAME="_DEBUG" VALUE="0">
+</FORM>
+</BODY>
+</HTML>
