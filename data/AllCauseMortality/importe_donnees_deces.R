@@ -1,6 +1,6 @@
 # Import des données de décès
-# 'https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/'
-
+# File found here and that points here:
+# https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/
 
 library(readr)
 library(dplyr)
