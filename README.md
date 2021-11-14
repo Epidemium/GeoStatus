@@ -1,2 +1,2 @@
 # GeoStatus
-Preparation of projects that investigate specific risk factors at geographical level
+Preparation of projects that investigate cancer risk factors at geographic level
