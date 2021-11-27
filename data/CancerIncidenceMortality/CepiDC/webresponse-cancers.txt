@@ -1,0 +1,3058 @@
+<HTML>
+<HEAD>
+<SCRIPT SRC="/inserm/js/output_efftx.js"></SCRIPT>
+<TITLE>Résultats de la requête : Effectifs de décès</TITLE>
+</HEAD>
+<BODY TEXT='#000000' BGCOLOR='#E5E5E5' LINK='#7F213F' VLINK='#008C8C'>
+<CENTER><A HREF="/"><IMG SRC="/inserm/img/bandeau.gif" border=0></A></CENTER>
+<FORM action="/cgi-bin/broker.exe" method="POST">
+<CENTER><H2><B><FONT COLOR=#00007F>Effectifs de décès</FONT></B></H2></CENTER><BR>
+<CENTER><TABLE WIDTH=90% BORDER=0>
+<TR><TD align=right width=15%><I><FONT COLOR=#00007F>Année : </FONT></I></TD><TD>2017</TD></TR>
+<TR><TD align=right><I><FONT COLOR=#00007F>Chapitre : </FONT></I></TD><TD>Tumeurs                                                                         </TD></TR>
+<TR><TD align=right><I><FONT COLOR=#00007F>Zone : </FONT></I></TD><TD>Ain                    </TD></TR>
+</TD></TR></TABLE></CENTER>
+<BR><BR>
+<CENTER><TABLE WIDTH="90%" BORDER=0><TR>
+<TD Width="20%" align=left nowrap><A HREF="javascript:liste();">Liste des codes CIM </A></TD>
+<TD Width="20%" align=left>&nbsp;</TD>
+<TD width="20%">&nbsp;</TD>
+<TD width="10%"><A HREF="javascript:backToRequestForm();"><IMG SRC="/inserm/img/back.gif" BORDER=0></A></TD>
+<TD width="10%"><A HREF="javascript:exportToCSV();"><IMG SRC="/inserm/img/export.gif" BORDER=0></A></TD>
+<TD width="20%">&nbsp;</TD>
+<TD Width="20%" align=right>&nbsp;</TD>
+</TR></TABLE></CENTER>
+<CENTER><TABLE CELLSPACING=1 CELLPADDING=3 BORDER=1 WIDTH=90%>
+<TR>
+<TD align=center>
+<B>Code CIM</B>
+</TD>
+<TD align=center>
+<B>Libellé</B>
+</TD>
+<TD align=center>
+<B>Sexe</B>
+</TD>
+<TD align=center NOWRAP>
+<B>Total </B>
+</TD>
+<TD align=center NOWRAP>
+<B><1 </B>
+</TD>
+<TD align=center NOWRAP>
+<B>1-4 </B>
+</TD>
+<TD align=center NOWRAP>
+<B>5-14 </B>
+</TD>
+<TD align=center NOWRAP>
+<B>15-24 </B>
+</TD>
+<TD align=center NOWRAP>
+<B>25-34 </B>
+</TD>
+<TD align=center NOWRAP>
+<B>35-44 </B>
+</TD>
+<TD align=center NOWRAP>
+<B>45-54 </B>
+</TD>
+<TD align=center NOWRAP>
+<B>55-64 </B>
+</TD>
+<TD align=center NOWRAP>
+<B>65-74 </B>
+</TD>
+<TD align=center NOWRAP>
+<B>75-84 </B>
+</TD>
+<TD align=center NOWRAP>
+<B>85-94 </B>
+</TD>
+<TD align=center NOWRAP>
+<B>95+ </B>
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+<B>
+C00-D48
+</B>
+</TD>
+<TD rowspan=3 align=left>
+<B>
+Tumeurs
+</B>
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+800
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+11
+</TD>
+<TD align=right>
+44
+</TD>
+<TD align=right>
+126
+</TD>
+<TD align=right>
+224
+</TD>
+<TD align=right>
+204
+</TD>
+<TD align=right>
+167
+</TD>
+<TD align=right>
+16
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+629
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+5
+</TD>
+<TD align=right>
+7
+</TD>
+<TD align=right>
+39
+</TD>
+<TD align=right>
+108
+</TD>
+<TD align=right>
+118
+</TD>
+<TD align=right>
+162
+</TD>
+<TD align=right>
+157
+</TD>
+<TD align=right>
+30
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+1429
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+11
+</TD>
+<TD align=right>
+18
+</TD>
+<TD align=right>
+83
+</TD>
+<TD align=right>
+234
+</TD>
+<TD align=right>
+342
+</TD>
+<TD align=right>
+366
+</TD>
+<TD align=right>
+324
+</TD>
+<TD align=right>
+46
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C00-C14
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne de la lèvre, de la cavité buccale et du pharynx
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+17
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+8
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+26
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C15
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne du oesophage
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+26
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+5
+</TD>
+<TD align=right>
+8
+</TD>
+<TD align=right>
+8
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+8
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+34
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+7
+</TD>
+<TD align=right>
+10
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C16
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne de l'estomac
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+25
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+5
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+7
+</TD>
+<TD align=right>
+2
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+13
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+38
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+7
+</TD>
+<TD align=right>
+5
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+13
+</TD>
+<TD align=right>
+2
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C18
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne du côlon
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+56
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+5
+</TD>
+<TD align=right>
+10
+</TD>
+<TD align=right>
+10
+</TD>
+<TD align=right>
+11
+</TD>
+<TD align=right>
+16
+</TD>
+<TD align=right>
+2
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+40
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+7
+</TD>
+<TD align=right>
+5
+</TD>
+<TD align=right>
+8
+</TD>
+<TD align=right>
+12
+</TD>
+<TD align=right>
+5
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+96
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+7
+</TD>
+<TD align=right>
+17
+</TD>
+<TD align=right>
+15
+</TD>
+<TD align=right>
+19
+</TD>
+<TD align=right>
+28
+</TD>
+<TD align=right>
+7
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C19 -C21
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne du rectum et de l’anus
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+28
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+7
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+16
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+5
+</TD>
+<TD align=right>
+5
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+44
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+5
+</TD>
+<TD align=right>
+11
+</TD>
+<TD align=right>
+14
+</TD>
+<TD align=right>
+11
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C22
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne du foie et des voies biliaires intrahépatiques
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+40
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+12
+</TD>
+<TD align=right>
+13
+</TD>
+<TD align=right>
+10
+</TD>
+<TD align=right>
+5
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+19
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+7
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+59
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+15
+</TD>
+<TD align=right>
+19
+</TD>
+<TD align=right>
+17
+</TD>
+<TD align=right>
+8
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C25
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne du pancréas
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+43
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+12
+</TD>
+<TD align=right>
+19
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+37
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+14
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+80
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+13
+</TD>
+<TD align=right>
+18
+</TD>
+<TD align=right>
+33
+</TD>
+<TD align=right>
+10
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C32 -C34
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne du larynx, de la trachée, des bronches et du poumon
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+187
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+13
+</TD>
+<TD align=right>
+45
+</TD>
+<TD align=right>
+68
+</TD>
+<TD align=right>
+39
+</TD>
+<TD align=right>
+20
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+75
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+23
+</TD>
+<TD align=right>
+17
+</TD>
+<TD align=right>
+15
+</TD>
+<TD align=right>
+10
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+262
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+22
+</TD>
+<TD align=right>
+68
+</TD>
+<TD align=right>
+85
+</TD>
+<TD align=right>
+54
+</TD>
+<TD align=right>
+30
+</TD>
+<TD align=right>
+2
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C43
+</TD>
+<TD rowspan=3 align=left>
+Mélanome malin de la peau
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+12
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+12
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+24
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C50
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne du sein
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+122
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+23
+</TD>
+<TD align=right>
+27
+</TD>
+<TD align=right>
+26
+</TD>
+<TD align=right>
+30
+</TD>
+<TD align=right>
+3
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+125
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+24
+</TD>
+<TD align=right>
+28
+</TD>
+<TD align=right>
+27
+</TD>
+<TD align=right>
+30
+</TD>
+<TD align=right>
+3
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C53
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne du col de l’utérus
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+10
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+10
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C54 -C55
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne d’autres parties de l’utérus
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+21
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+8
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+21
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+8
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C56
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne de l’ovaire
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+39
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+39
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C61
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne de la prostate
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+91
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+16
+</TD>
+<TD align=right>
+31
+</TD>
+<TD align=right>
+34
+</TD>
+<TD align=right>
+3
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+91
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+16
+</TD>
+<TD align=right>
+31
+</TD>
+<TD align=right>
+34
+</TD>
+<TD align=right>
+3
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C64
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne du rein
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+19
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+5
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+10
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+29
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+8
+</TD>
+<TD align=right>
+8
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C67
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne de la vessie
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+28
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+8
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+13
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+5
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+33
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+14
+</TD>
+<TD align=right>
+0
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C81 -C96
+</TD>
+<TD rowspan=3 align=left>
+Tumeur maligne des tissus lymphatiques et hématopoïétiques
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+84
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+25
+</TD>
+<TD align=right>
+25
+</TD>
+<TD align=right>
+23
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+70
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+5
+</TD>
+<TD align=right>
+13
+</TD>
+<TD align=right>
+19
+</TD>
+<TD align=right>
+22
+</TD>
+<TD align=right>
+3
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+154
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+38
+</TD>
+<TD align=right>
+44
+</TD>
+<TD align=right>
+45
+</TD>
+<TD align=right>
+4
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C00-C97 nc preced
+</TD>
+<TD rowspan=3 align=left>
+Autres tumeurs malignes
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+110
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+12
+</TD>
+<TD align=right>
+22
+</TD>
+<TD align=right>
+34
+</TD>
+<TD align=right>
+20
+</TD>
+<TD align=right>
+15
+</TD>
+<TD align=right>
+3
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+93
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+10
+</TD>
+<TD align=right>
+17
+</TD>
+<TD align=right>
+25
+</TD>
+<TD align=right>
+26
+</TD>
+<TD align=right>
+9
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+203
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+16
+</TD>
+<TD align=right>
+32
+</TD>
+<TD align=right>
+51
+</TD>
+<TD align=right>
+45
+</TD>
+<TD align=right>
+41
+</TD>
+<TD align=right>
+12
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left>
+C98 -D48
+</TD>
+<TD rowspan=3 align=left>
+Autres tumeurs
+</TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+31
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+14
+</TD>
+<TD align=right>
+1
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+30
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+1
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+14
+</TD>
+<TD align=right>
+6
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+61
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+*
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+0
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+18
+</TD>
+<TD align=right>
+28
+</TD>
+<TD align=right>
+7
+</TD>
+</TR>
+<TR><TD COLSPAN=16>
+&nbsp;</TD></TR>
+<TR>
+<TD align=center>
+<B>Code CIM</B>
+</TD>
+<TD align=center>
+<B>Libellé</B>
+</TD>
+<TD align=center>
+<B>Sexe</B>
+</TD>
+<TD align=center>
+<B>Total </B>
+</TD>
+<TD align=center>
+<B><1 </B>
+</TD>
+<TD align=center>
+<B>1-4 </B>
+</TD>
+<TD align=center>
+<B>5-14 </B>
+</TD>
+<TD align=center>
+<B>15-24 </B>
+</TD>
+<TD align=center>
+<B>25-34 </B>
+</TD>
+<TD align=center>
+<B>35-44 </B>
+</TD>
+<TD align=center>
+<B>45-54 </B>
+</TD>
+<TD align=center>
+<B>55-64 </B>
+</TD>
+<TD align=center>
+<B>65-74 </B>
+</TD>
+<TD align=center>
+<B>75-84 </B>
+</TD>
+<TD align=center>
+<B>85-94 </B>
+</TD>
+<TD align=center>
+<B>95+ </B>
+</TD>
+</TR>
+<TR>
+<TD rowspan=3 align=left><B>
+&nbsp;
+</B></TD>
+<TD rowspan=3 align=left><B>
+Total toutes causes confondues
+</B></TD>
+<TD align=center>
+M
+</TD>
+<TD align=right>
+2526
+</TD>
+<TD align=right>
+12
+</TD>
+<TD align=right>
+6
+</TD>
+<TD align=right>
+5
+</TD>
+<TD align=right>
+18
+</TD>
+<TD align=right>
+33
+</TD>
+<TD align=right>
+50
+</TD>
+<TD align=right>
+126
+</TD>
+<TD align=right>
+286
+</TD>
+<TD align=right>
+497
+</TD>
+<TD align=right>
+576
+</TD>
+<TD align=right>
+794
+</TD>
+<TD align=right>
+123
+</TD>
+</TR>
+<TR>
+<TD align=center>
+F
+</TD>
+<TD align=right>
+2524
+</TD>
+<TD align=right>
+13
+</TD>
+<TD align=right>
+2
+</TD>
+<TD align=right>
+4
+</TD>
+<TD align=right>
+3
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+17
+</TD>
+<TD align=right>
+72
+</TD>
+<TD align=right>
+163
+</TD>
+<TD align=right>
+234
+</TD>
+<TD align=right>
+482
+</TD>
+<TD align=right>
+1163
+</TD>
+<TD align=right>
+362
+</TD>
+</TR>
+<TR>
+<TD align=center>
+T
+</TD>
+<TD align=right>
+5050
+</TD>
+<TD align=right>
+25
+</TD>
+<TD align=right>
+8
+</TD>
+<TD align=right>
+9
+</TD>
+<TD align=right>
+21
+</TD>
+<TD align=right>
+42
+</TD>
+<TD align=right>
+67
+</TD>
+<TD align=right>
+198
+</TD>
+<TD align=right>
+449
+</TD>
+<TD align=right>
+731
+</TD>
+<TD align=right>
+1058
+</TD>
+<TD align=right>
+1957
+</TD>
+<TD align=right>
+485
+</TD>
+</TR>
+</TABLE></CENTER>
+<FONT SIZE=2 COLOR=#00007F>* : Effectifs non communiqués (voir aide)</FONT>
+<CENTER><TABLE WIDTH="90%" BORDER=0><TR>
+<TD Width="20%" align=left nowrap><A HREF="javascript:liste();">Liste des codes CIM </A></TD>
+<TD Width="20%" align=left>&nbsp;</TD>
+<TD width="20%">&nbsp;</TD>
+<TD width="10%"><A HREF="javascript:backToRequestForm();"><IMG SRC="/inserm/img/back.gif" BORDER=0></A></TD>
+<TD width="10%"><A HREF="javascript:exportToCSV();"><IMG SRC="/inserm/img/export.gif" BORDER=0></A></TD>
+<TD width="20%">&nbsp;</TD>
+<TD Width="20%" align=right>&nbsp;</TD>
+</TR></TABLE></CENTER>
+<INPUT TYPE="HIDDEN" NAME="NOMEN" VALUE="910">
+<INPUT TYPE="HIDDEN" NAME="AXEGEO" VALUE="D">
+<INPUT TYPE="HIDDEN" NAME="PREV_AXEGEO" VALUE="D">
+<INPUT TYPE="HIDDEN" NAME="CODE_GEO" VALUE="01">
+<INPUT TYPE="HIDDEN" NAME="CAUSE" VALUE="02">
+<INPUT TYPE="HIDDEN" NAME="SEC_CAUSE" VALUE="02">
+<INPUT TYPE="HIDDEN" NAME="AN_DEB" VALUE="2017">
+<INPUT TYPE="HIDDEN" NAME="AN_FIN" VALUE="">
+<INPUT TYPE="HIDDEN" NAME="curr_year" VALUE="2017">
+<INPUT TYPE="HIDDEN" NAME="TYPE" VALUE="E">
+<INPUT TYPE="HIDDEN" NAME="TYPE_SORTIE" VALUE="T">
+<INPUT TYPE="HIDDEN" NAME="TCAUSE" VALUE="S">
+<INPUT TYPE="HIDDEN" NAME="YEAR_MOOVE" VALUE="">
+<INPUT TYPE="HIDDEN" NAME="_SERVICE" VALUE="inserm">
+<INPUT TYPE="HIDDEN" NAME="_PROGRAM" VALUE="intlib.GENERAL.ET_OUTPUT_GEN.SCL">
+<INPUT TYPE="HIDDEN" NAME="_DEBUG" VALUE="0">
+</FORM>
+</HTML>
