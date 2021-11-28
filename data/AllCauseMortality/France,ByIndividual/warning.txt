@@ -1,0 +1,3 @@
+Individual deaths are given by location of death, not the normal living place of the person.
+Ex: a person living in the Paris area but not Paris may become ill and go to a hospital in Paris and die there,
+then the location in these files will be Paris.
